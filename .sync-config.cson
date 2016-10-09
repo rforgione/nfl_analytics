@@ -1,0 +1,20 @@
+remote:
+  host: "uvm"
+  user: "ubuntu"
+  path: "/home/ubuntu/development/nfl_analytics"
+behaviour:
+  uploadOnSave: true
+  syncDownOnOpen: false
+  forgetConsole: false
+  autoHideConsole: true
+  alwaysSyncAll: false
+option:
+  deleteFiles: false
+  autoHideDelay: 200
+  exclude: [
+    ".sync-config.cson"
+    ".git"
+    "node_modules"
+    "tmp"
+    "vendor"
+  ]
